@@ -1,0 +1,12 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="Walkthrough.controller.InvoiceList"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+					<List items="{invoice>/Invoice}" headerText="{i18n>InvoiceListTitle}">
+						<items>
+							<ObjectListItem title="{invoice>Quantity} X {invoice>ProductName}"
+							
+							number="{invoice>Price}"
+							numberUnit="{invoice>Curr}"
+							/>
+						</items>
+					</List>
+</mvc:View>

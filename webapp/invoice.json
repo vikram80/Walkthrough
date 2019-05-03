@@ -1,0 +1,37 @@
+{
+	"Invoice": [{
+			"ProductName": "Dishwasher",
+			"Quantity": 10,
+			"Price": "12.000",
+			"Curr": "CAD",
+			"ShipperName": "Samsung",
+			"ShippedDate": "2015-04-01T00:00:00",
+			"Status": "A"
+		}, {
+			"ProductName": "Dryer",
+			"Quantity": 5,
+			"Price": "333.000",
+			"Curr": "CAD",
+			"ShipperName": "Whirlpool",
+			"ShippedDate": "2019-03-07T00:00:00",
+			"Status": "B"
+		}, {
+			"ProductName": "Dishwasher-Frontload",
+			"Quantity": 7,
+			"Price": "819.000",
+			"Curr": "CAD",
+			"ShipperName": "MABE",
+			"ShippedDate": "2019-04-23T00:00:00",
+			"Status": "C"
+		}, {
+			"ProductName": "Washer",
+			"Quantity": 10,
+			"Price": "123.000",
+			"Curr": "CAD",
+			"ShipperName": "Samsung",
+			"ShippedDate": "2019-06-01T00:00:00",
+			"Status": "A"
+		}
+
+	]
+}

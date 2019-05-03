@@ -73,6 +73,12 @@
 					"bundleName": "Walkthrough.i18n.i18n"
 				}
 			},
+			"invoice": {
+				"type": "sap.ui.model.json.JSONModel",
+				"uri": "invoice.json"
+			
+			},
+			
 			"": {
 				"dataSource": "mainService"
 			}
@@ -103,6 +109,10 @@
 				"HelloPanel": {
 					"viewType": "XML",
 					"viewName": "HelloPanel"
+				},
+				"InvoiceList": {
+					"viewType": "XML",
+					"viewName": "InvoiceList"
 				}
 			}
 		}
