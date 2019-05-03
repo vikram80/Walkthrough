@@ -3,7 +3,6 @@
 					<List items="{invoice>/Invoice}" headerText="{i18n>InvoiceListTitle}">
 						<items>
 							<ObjectListItem title="{invoice>Quantity} X {invoice>ProductName}"
-							
 							number="{invoice>Price}"
 							numberUnit="{invoice>Curr}"
 							/>
